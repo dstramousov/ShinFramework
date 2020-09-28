@@ -1,0 +1,1 @@
+jquery.jqDock 1.6

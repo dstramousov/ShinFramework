@@ -1,0 +1,37 @@
+.column { float: left; padding-bottom: 100px; }
+.portlet { margin: 0 1em 1em 0; }
+.portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+.portlet-header .ui-icon { float: right; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+
+.color-yellow {background-color:#f2bc00 !important; background: none;}  
+.color-red    {background-color:#dd0000 !important; background: none;}  
+.color-blue   {background-color:#148ea4 !important; background: none;}  
+.color-white  {background-color:#dfdfdf !important; background: none;}  
+.color-orange {background-color:#f66e00 !important; background: none;}  
+.color-green  {background-color:#8dc100 !important; background: none;}
+
+.border-color-yellow {border-color:#f2bc00 !important;}  
+.border-color-red    {border-color:#dd0000 !important;}  
+.border-color-blue   {border-color:#148ea4 !important;}  
+.border-color-white  {border-color:#dfdfdf !important;}  
+.border-color-orange {border-color:#f66e00 !important;}  
+.border-color-green  {border-color:#8dc100 !important;}
+
+.bg-color-yellow {background: none; background-color:#f2bc00;}  
+.bg-color-red    {background: none; background-color:#dd0000;}  
+.bg-color-blue   {background: none; background-color:#148ea4;}  
+.bg-color-white  {background: none; background-color:#dfdfdf;}  
+.bg-color-orange {background: none; background-color:#f66e00;}  
+.bg-color-green  {background: none; background-color:#8dc100;}
+
+.color-list {padding-left: 10px; display: none;}
+.color-list span {float: left;}
+.color-list ul { list-style-type: none; width: 150px; margin: 0px; padding: 0px; float: left;}
+.color-list ul li { float: left; width: 20px; height: 20px; margin-right: 5px; }
+
+.asd{
+    background: url() no-repeat;
+} 

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Expires" content="Fri, Jan 01 1900 00:00:00 GMT">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="Lang" content="en">
+        <title>Test Uploadify</title>
+        
+        <link href="includes/uploadify.css" media="all" type="text/css" rel="stylesheet">
+        
+        <script type="text/javascript" src="includes/jquery-1.4.4.js"></script>
+        <script type="text/javascript" src="includes/swfobject.js"></script>
+        <script type="text/javascript" src="includes/jquery.uploadify.v2.1.4.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="imageUploader"></div>
+        <input type="button" name="" value="Upload" onclick="$('#imageUploader').uploadifyUpload();" >
+        <script type="text/javascript">
+            $("#imageUploader").uploadify({
+                uploader:               'includes/uploadify.swf', 
+                script:                 'upload.php', 
+                cancelImg:              'includes/cancel.png', 
+                auto:                   false, 
+                folder:                 '/', 
+                multi:                  false, 
+                buttonImg:              '', 
+                width:                  130, 
+                wmode:                  'transparent', 
+                queueID:                '', 
+                sizeLimit:              50000000, 
+                simUploadLimit:         1, 
+                fileDesc:               'Select file(s)', 
+                fileExt:                '*.jpg;*.gif;*.png;', 
+                queueSizeLimit:         1, 
+                fileDataName:           "img",
+                onComplete:             function(event, ID, fileObj, response, data){
+                    eval(response);
+                }
+            });
+        </script>      
+    </body>
+</html>

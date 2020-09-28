@@ -1,0 +1,1 @@
+cloud-carousel 1.0.4

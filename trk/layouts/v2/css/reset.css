@@ -1,0 +1,23 @@
+/*reset params for all tags on the page*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+fieldset,img { 
+    border:0;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}

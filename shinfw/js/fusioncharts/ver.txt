@@ -1,0 +1,2 @@
+FusionCharts 1.2.3F
+jquery.fusioncharts.js 1.0.0b2 (build: 108)

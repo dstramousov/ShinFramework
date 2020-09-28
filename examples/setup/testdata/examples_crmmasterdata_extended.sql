@@ -1,0 +1,2 @@
+INSERT INTO `examples_crmmasterdata` (`idCustomer`, `company`, `vat`, `nin`, `contactName`, `contactSurname`, `address`, `postalCode`, `province`, `city`, `country`, `tel`, `fax`, `mobile`, `email`, `website`, `addInfo`, `userInsert`, `userMod`, `dataMod`, `dataInsert`, `lat`, `lng`) VALUES 
+('1', 'Binary Studio Italy', '1244214124', '332gdh324hkhk', 'Artyom', 'Goncharov', 'Via stazione, 3', '20840', 'NO', 'Lesa', 'ITA', '0344553', null, null, 'dfgdfgd@erwer.it', null, null, '1', null, null, '2010-08-23 17:29:33', 0, 0);

@@ -1,0 +1,25 @@
+DEBUG - 2011-12-20 07:00:05 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-12-20 07:00:05 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-12-20 07:00:05 --> URI Class Initialized
+DEBUG - 2011-12-20 07:00:05 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-12-20 07:00:05 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\StartController.php
+DEBUG - 2011-12-20 07:00:05 --> Router Class Initialized.
+DEBUG - 2011-12-20 07:00:05 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-12-20 07:00:06 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-12-20 07:00:06 --> Session Class Initialized
+DEBUG - 2011-12-20 07:00:06 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-12-20 07:00:06 --> Session routines successfully run
+DEBUG - 2011-12-20 07:00:06 --> SHIN_Controller class initialized
+DEBUG - 2011-12-20 07:00:06 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] "delete from sys_session where updated < '2011-12-20 05:00:06'"
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] Time run: 0.093272 seconds.
+DEBUG - 2011-12-20 07:00:06 --> 
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '1853f9bac36e9928ce8aa76eb71afc8e'"
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] Time run: 0.001531 seconds.
+DEBUG - 2011-12-20 07:00:06 --> 
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-12-20 07:00:06' WHERE `id` = '1853f9bac36e9928ce8aa76eb71afc8e'"
+DEBUG - 2011-12-20 07:00:06 --> [QUERY] Time run: 0.001345 seconds.
+DEBUG - 2011-12-20 07:00:06 --> 
+DEBUG - 2011-12-20 07:00:06 --> SHIN_Core loaded successfull.
+DEBUG - 2011-12-20 07:00:06 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2011-12-20 07:00:06 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\login.tpl

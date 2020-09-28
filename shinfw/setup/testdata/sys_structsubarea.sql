@@ -1,0 +1,15 @@
+INSERT INTO `sys_structsubarea` (`idSubArea`, `idArea`, `subarea`) VALUES
+(1, 10, 'All Intranet'),
+(1, 20, 'CRM - LEADS'),
+(2, 20, 'CRM - ORDERS'),
+(1, 30, 'All PPFM'),
+(1, 40, 'All Examples'),
+(1, 50, 'System - Setup'),
+(1, 60, 'Support - Ticket'),
+(2, 60, 'Support - Admin'),
+(1, 70, 'GTR Admin'),
+(2, 70, 'GTR Website'),
+(1, 80, 'Snaptrack website'),
+(2, 80, 'Snaptrack admin'),
+(1, 90, 'JQuery mobile test'),
+(2, 90, 'JQuery application');

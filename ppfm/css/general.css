@@ -1,0 +1,22 @@
+body {
+    padding: 5px !important;
+}
+
+fieldset {
+    border: 1px solid #000000 !important;
+    padding: 5px !important;
+}
+
+.error {
+    color: red; 
+    font-size: 12px; 
+    display: none;
+}
+
+input[type=text]{
+    width: 250px !important;
+}
+
+td{
+    padding: 5px !important;
+}

@@ -1,0 +1,2 @@
+INSERT INTO `sys_user` (`idUser`, `lang`, `name`, `role_1`, `role_2`, `role_3`, `role_4`, `role_5`, `role_6`, `role_7`, `role_8`, `role_9`, `role_10`, `lastname`, `email`, `username`, `pwd`, `theme`) VALUES
+(4, 'en', 'Roberto', 'r0080', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Bertolino', 'roberto@accenticreativi.it', 'roberto', '14aa7fb7dfe078c442945cc1c4127925', 'lightness');

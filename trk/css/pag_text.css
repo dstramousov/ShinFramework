@@ -1,0 +1,42 @@
+
+/* Miei elementi */
+
+.myTitle 
+{ 
+margin: 0px 0px 0px 70px;
+padding: 0px 0px 0px 25px; 
+text-align: left; 
+font-size: 14px;
+font-weight: bold;
+color: #ffffff;
+background: url(../images/site/plus.jpg) no-repeat center left;
+ }
+ 
+.TestoPag {
+margin: 15px 0px 0px 70px; 
+width: 620px; 
+font-size: 12px; 
+line-height: 18px; 
+text-align: justify;
+
+ }
+ 
+ #logo { 
+ position: relative;
+ left: -28px;
+  }
+  
+  .reddo { 
+  color: #cc0000;
+  font-weight: bold;
+   }
+   
+   .bold { 
+     font-weight: bold;
+    }
+    
+    .anchmenu { 
+    margin: 5px 0px 0px 20px; 
+    padding: 0px 0px 0px 20px;
+    background: url(../images/site/plus.jpg) no-repeat center left;
+     }

@@ -1,0 +1,302 @@
+.clear{
+    clear: both;
+}
+
+.b-main-wrapper{
+    width: %100;
+}
+
+.b-inner{
+    clear: both;    
+}
+
+.delete{
+    display: block;
+    background: transparent url(./../../images/delete.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.edit{
+    display: block;
+    background: transparent url(./../../images/edit.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.add{
+    display: block;
+    background: transparent url(./../../images/add.png) no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.b-todo-checkbox input {
+    cursor: pointer !important;
+}
+
+/* ------------------------------------- TREE MODE --------------------------------*/ 
+/*  ------------------------- todo list ---------------------- */
+.b-todo-list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.b-todo-item {
+    clear: both;    
+}
+
+.b-toggle-todo-item{
+    background: transparent url('./../../images/icons.gif') no-repeat scroll -32px 0;
+    cursor: pointer;
+    float: left;
+    height: 15px;
+    margin-top: 2px;
+    width: 15px;
+}
+
+.b-toggle-todolist-item{
+    background: transparent url('./../../images/icons.gif') no-repeat scroll -32px 0;
+    cursor: pointer;
+    float: left;
+    height: 15px;
+    margin-top: 2px;
+    width: 15px;
+}
+
+.b-toggle-todo-item-empty{
+    float: left;
+    height: 15px;
+    width: 15px;    
+}
+
+.b-todo-checkbox{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.b-todo-item-name{
+    float: left;
+    width: 400px;    
+}
+
+.b-edit-todo {
+    display: none;
+}
+
+.b-edit-todo input[type=text]{
+    width: 350px;
+}
+
+.b-count-sub-items{
+    float: left;
+    width: 60px;
+}
+
+.b-todo-percentage{
+    float: left;    
+}
+
+.b-todo-percentage .b-inner{
+    height: 15px;
+    width: 150px;
+    border: 1px solid #DDFF77;
+}
+
+.b-progress{
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.b-inner-percentage{
+    background-color: #778899;
+    height: 15px;
+}
+
+.item-toogle{
+    background-position:-48px 0;
+}
+
+.highlight-todo-item{
+    background-color: #AABBCC;
+}
+
+.highlight-selected-todo-item {
+    background-color: #CC1234;
+}
+
+.strikeItem{
+    text-decoration: line-through;
+}
+
+.todo-actions{
+    float: left;
+    padding-left: 10px;    
+}
+
+.todo-actions a{
+    float: left;
+    margin-right: 5px;
+}
+
+.todo-item-actions{
+    float: left;
+    padding-left: 10px;    
+}
+
+.todo-item-actions a{
+    float: left;
+    margin-right: 5px;
+}
+
+/*  ------------------------- todo list ---------------------- */ 
+
+
+/*  ------------------------- todo sub list ------------------ */ 
+
+.b-todo-item-subitems{
+    display: none;    
+}
+
+.b-todo-subitem{
+    clear: both;    
+}
+
+.b-todo-item-checkbox{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.b-todo-subitem-list{
+    list-style-type: none;
+}
+
+.b-todo-subitem-name{
+    float: left;
+    width: 400px;    
+}
+
+.b-sub-inner-percentage{
+    background-color: #DDFFAA;
+    height: 15px;
+}
+
+/*  ------------------------- todo sub list ------------------ */
+/* ------------------------------------- TREE MODE --------------------------------*/ 
+
+
+
+
+
+/* ------------------------------------- SINGLE MODE --------------------------------*/
+.b-main-wrapper-single{
+    width: 100%;
+    margin: 0px auto;
+}
+
+#b-main-wrapper-single fieldset {
+    display: block;
+    float: left;
+    margin: 5px !important;
+}
+
+.b-single-todo-list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.b-single-todo-item-name{
+    float: left;
+    width: 270px;
+}
+
+.b-single-todo-item {
+    clear: both;    
+}
+
+.single-todo-actions{
+    float: left;
+    padding-left: 10px;    
+}
+
+.single-todo-actions a{
+    float: left;
+    margin-right: 5px;
+}
+
+.b-single-todo-checkbox{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.b-single-add-todo{
+    text-align: center;
+}
+
+.b-single-add-todo-item{
+    text-align: center;
+}
+
+
+/* ------------------------- single todo list items -------------------------- */
+.b-main-wrapper-single fieldset{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.b-main-wrapper-single ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.b-main-wrapper-single ul li {
+    cursor: pointer;
+}
+
+.show-btn{
+    text-align: center;
+}
+
+.edit-btn{
+    display: none;
+    text-align: center;
+}
+
+.dialog-edit-btns{
+    display: none;
+}
+
+.todo-details{
+    clear: both;
+    margin-left: 45px;
+}
+
+.todo-item-details{
+    display: none;
+    clear: both;
+    margin-left: 45px;
+}
+
+.todo-item-details input, textarea{
+    width: 150px;
+}
+
+.todo-item-details textarea{
+    height: 50px;
+}
+
+/* ------------------------- single todo list items -------------------------- */
+
+ 
+/* ------------------------------------- SINGLE MODE --------------------------------*/ 

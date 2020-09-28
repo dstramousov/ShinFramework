@@ -1,0 +1,12 @@
+SetEnv TZ Europe/Rome
+
+RewriteEngine On
+RewriteBase /shinframework/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ppfm/index.php?/$1 [L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule> 

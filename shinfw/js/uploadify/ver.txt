@@ -1,0 +1,2 @@
+jquery.uploadify 2.1.4
+swfobject 2.2

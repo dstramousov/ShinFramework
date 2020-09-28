@@ -1,0 +1,140 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font: 11px Tahoma, Arial;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+/** ----------------------------------- Header block ---------------------------------- **/
+.b-header { 
+    height: 150px;
+}
+
+.b-logo {
+    position: absolute;
+    left: 0;
+    margin-top: 32px;
+}
+
+.b-header-bar{
+    margin-top: 20px;
+}
+
+.b-header-bar a{
+    margin-left: 20px;
+}
+
+.login-btn{
+    background: transparent url(../images/login-btn.png) no-repeat;
+    width: 159px;
+    height: 21px;    
+}
+
+.registrati-btn{
+    background: transparent url(../images/registrati.jpg) no-repeat;
+    width: 159px;
+    height: 21px;
+}
+
+/** ----------------------------------- Header block ---------------------------------- **/
+
+/** ----------------------------------- Content block ---------------------------------- **/
+.b-content { 
+    float: left;
+    min-width: 1024px;
+    max-width: 1950px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.b-content-inner{
+    background: transparent url(../images/BandaRossa.jpg) repeat-y;
+    padding-left: 247px;
+    margin-bottom: 20px; 
+}
+
+.search-form{
+    width: 247px;
+    position: absolute;
+    left: 0px;
+    margin-left: 20px;
+    margin-top: 220px;
+}
+
+.search-form table{
+    width: 100%;
+}
+
+.search-form div{
+    border: 1px solid #FFFFFF;
+    float: left;
+    margin-left: 15px;
+}
+
+.search-form th {
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-weight: normal;
+}
+
+.search-form td{
+    border-bottom: 1px solid #999999;
+}
+
+.search-form th, td{
+    background: #333333;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+.search-form select, input[type=text] {
+    border: none;
+    background-color: #666666;
+}
+
+.search-form select {
+    width: 130px;
+}
+
+.search-form input[type=text] {
+    width: 129px;
+}
+
+.login-form{
+    display: none;
+} 
+
+/** ----------------------------------- Content block ---------------------------------- **/
+
+/** ----------------------------------- Footer block ---------------------------------- **/
+.white-delimiter{
+    font-size: 0px;
+    line-height: 0px;
+    height: 0px;
+    border-top: 1px solid #FFFFFF;    
+}
+
+.b-footer { 
+    clear: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.b-footer a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.b-footer span{
+    color: #a3a49d;
+}
+/** ----------------------------------- Footer block ---------------------------------- **/

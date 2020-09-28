@@ -1,0 +1,86 @@
+a:link, a:visited, a:active {font: 11px Tahoma, Arial; color: #ECECEC}
+a:hover {color: white}
+.arr1:link, .arr1:visited, .arr1:active {background: url(images/arr1.gif) no-repeat left; padding-left: 17px; color: #DCDBC6}
+.arr2:link, .arr2:visited, .arr2:active {background: url(images/arr2.gif) no-repeat left; padding-left: 11px;}
+#h {background: url(images/hBG.gif) repeat-x; height: 30px}
+#date {background-color: #DAD7B8; color: #202021; -moz-box-sizing: padding-box; padding: 0px 5px 0px 5px;}
+#leftCol {float: left; width: 196px; background: url(images/pageR.gif) no-repeat right top;}
+#centCol {float: left; margin-left: 15px; background: url(images/pageR.gif) no-repeat right top;}
+#rightCol {margin-left: 15px; float: right; width: 239px; background: url(images/pageR.gif) no-repeat right top;}
+
+.gallery-list{
+    list-style: none;
+    padding: 0px;    
+}
+
+.gallery-list li {
+    display:  block;
+    float: left;
+    width: 480px;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.gallery-header{
+    font-size: 40px;
+}
+
+.search-circuit{
+    width: 150px;
+}
+
+.search-rate{
+    width: 30px;
+}
+
+#raceTimeFrom, #raceTimeTo {
+    width: 60px;
+}
+
+
+.photo-info th{
+    text-align: left;
+}
+
+#ui-datepicker-div {
+    display: none;
+}
+
+.user-not-loggedin{
+    display: none;
+}
+
+.exif-information th{
+    text-align: left;
+}
+
+.photo-info th{
+    width: 150px;
+}
+
+.search-table th{
+    width: 120px;
+    text-align: left;
+}
+
+.photo-list{
+    margin-right: 10px;
+}
+
+.jqDockWrap{
+    margin-top: 4px;
+}
+
+#jqDock0 {
+    margin-left: 20px !important;
+}
+
+img{
+    border: 0px;
+}
+

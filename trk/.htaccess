@@ -1,0 +1,36 @@
+#php_value upload_max_filesize 20M
+#php_value post_max_size 20M
+#php_value max_execution_time 500
+#php_value max_input_time 500
+
+SetEnv TZ Europe/Rome
+
+#Switch on rewrite module
+RewriteEngine On
+
+#If the request is for a file that exists already on the server, index.php isn't served.  
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#If the request is for a real directory (one that exists on the server), index.php isn't served.
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Redirect zerro query from root to the /trk
+#RewriteRule ^.*$ trk/main [L]
+
+#Redirect all query with parameters.
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+
+#Redirect for trk for "main" request.
+#RewriteRule main$ trk/index.php?/$1
+
+
+#this is part need for authorization in setup controller part 
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule> 
+
+
+<IfModule mod_php4.c>
+php_value upload_max_filesize 8M
+</IfModule>

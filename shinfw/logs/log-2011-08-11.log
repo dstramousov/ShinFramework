@@ -1,0 +1,23 @@
+DEBUG - 2011-08-11 07:41:39 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-11 07:41:39 --> URI Class Initialized
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-11 07:41:39 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\UserController.php
+DEBUG - 2011-08-11 07:41:39 --> Router Class Initialized.
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-11 07:41:39 --> Session Class Initialized
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-11 07:41:39 --> Session routines successfully run
+DEBUG - 2011-08-11 07:41:39 --> SHIN_Controller class initialized
+DEBUG - 2011-08-11 07:41:39 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-11 07:41:39 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '05b04e2a451b3dbbcf7348d01e62c2eb'"
+DEBUG - 2011-08-11 07:41:40 --> [QUERY] Time run: 0.468006 seconds.
+DEBUG - 2011-08-11 07:41:40 --> 
+DEBUG - 2011-08-11 07:41:40 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-11 07:41:40' WHERE `id` = '05b04e2a451b3dbbcf7348d01e62c2eb'"
+DEBUG - 2011-08-11 07:41:40 --> [QUERY] Time run: 0.065363 seconds.
+DEBUG - 2011-08-11 07:41:40 --> 
+DEBUG - 2011-08-11 07:41:40 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-11 07:41:40 --> SHIN_Controller class initialized
+DEBUG - 2011-08-11 07:41:40 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-11 07:41:40 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\upload.php

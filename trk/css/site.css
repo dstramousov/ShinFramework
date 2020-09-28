@@ -1,0 +1,459 @@
+input:-webkit-autofill {
+    color: #2a2a2a !important;
+}
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font: 11px Tahoma, Arial;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.empty-li{
+    clear: both;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-margin{
+    margin: 0px !important;
+}
+
+/** ----------------------------------- Header block ---------------------------------- **/
+.b-header {
+    position: relative; 
+    height: 150px;
+}
+
+.b-logo {
+    position: absolute;
+    left: 0;
+    margin-top: 12px;
+    z-index: 1;
+    margin-left: -20px;
+}
+
+.b-header-bar{
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.login-btn{
+    background: transparent url(../images/site/login-btn.png) no-repeat;
+    width: 159px;
+    height: 21px;
+    margin-left: 20px;
+    cursor: pointer;    
+}
+
+.reset-pwd-btn{
+    background: transparent url(../images/site/reset-pwd-btn.png) no-repeat;
+    width: 150px;
+    height: 19px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-right: 28px;
+    padding-bottom: 1px;
+    border: none;    
+}
+
+.registrati-btn{
+    display: block;
+    background: transparent url(../images/site/registrati.jpg) no-repeat;
+    width: 159px;
+    height: 21px;
+}
+
+.privat-room-btn{
+    display: block;
+    background: transparent url(../images/site/private-room-btn.png) no-repeat;
+    width: 159px;
+    height: 21px;
+    margin-left: 20px;    
+}
+
+.logout-btn{
+    display: block;
+    background: transparent url(../images/site/logout-btn.png) no-repeat;
+    width: 159px;
+    height: 21px;
+    margin-left: 20px;    
+}
+
+.user-name{
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+/** ----------------------------------- Header block ---------------------------------- **/
+
+/** ----------------------------------- Content block ---------------------------------- **/
+.b-content { 
+    min-width: 1024px;
+    max-width: 1950px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.b-content-inner{
+    background: transparent url(../images/site/BandaRossa.jpg) repeat-y;
+    padding-left: 247px;
+    margin-bottom: 20px; 
+    min-height: 560px;
+    margin-top: -27px;
+}
+
+.search-form{
+    width: 247px;
+    position: absolute;
+    left: -6px;
+    margin-left: 18px;
+    margin-top: 230px;
+}
+
+.with-header-photo{
+    margin-top: 100px;
+}
+
+.search-form table{
+    width: 100%;
+}
+
+.search-form > form > div{
+    border: 1px solid #FFFFFF;
+    float: left;
+    margin-left: 15px;
+}
+
+.search-form th {
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-weight: normal;
+    background: #333333;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+.search-form td{
+    border-bottom: 1px solid #999999;
+    background: #333333;
+    padding: 3px 8px;
+    text-align: left;
+
+}
+
+select, input[type=text], input[type=password] {
+    border: none;
+    background-color: #666666;
+    color: #FFF
+}
+
+.search-form select {
+    width: 106px;
+}
+
+.search-form input[type=text] {
+    width: 102px;
+}
+
+.without-bottom-border{
+    border-bottom: none !important;
+    text-align: center !important;
+}
+
+.search-btn{
+    background: transparent url(../images/site/search-btn.jpg) no-repeat;
+    border: none;
+    width: 95px;
+    height: 19px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-right: 14px;
+    padding-bottom: 1px;
+}
+
+.reset-btn{
+    background: transparent url(../images/site/search-btn.jpg) no-repeat;
+    border: none;
+    width: 95px;
+    height: 19px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-bottom: 1px;
+    padding-right: 14px;    
+}
+
+.login-form{
+    display: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
+    width: 157px;
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    z-index: 10;
+}
+
+.login-table {
+    width: 130px;
+    margin-left: 8px;
+    margin-top: 10px;
+    
+}
+
+.login-form input[type=text], input[type=password] {
+    width: 140px;
+    background: #666666;
+}
+
+.search-text{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bread-crumbs {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+
+.bread-crumbs a{
+    text-decoration: underline;
+}
+
+.page-navigation{
+    float: left;
+    clear: both;
+}
+
+.search-list{
+    position: relative;
+    padding-top: 40px;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+.search-list ul{
+    margin-bottom: 15px;
+}
+
+.search-list li {
+    float: left;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+
+.search-list img{
+    border: 1px solid #FFFFFF;
+    width: 150px;
+    height: 100px;
+}
+
+.show-photo{
+    position: relative;
+    z-index: 2;
+    margin-left: 20px;
+    padding-top: 40px;
+    float: left;    
+}
+
+.photo-information{
+    margin-top: 20px;
+}
+
+.photo-rate img{
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 8px;
+}
+
+.circuitdata-header{
+    color: #d92025;
+}
+
+.photo-rate{
+    width: auto !important;
+}
+
+.middle-photo{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.all-photos-list{
+    background: transparent url(../images/site/PellicolaCorta.jpg) no-repeat;
+    height: 90px;
+    width: 730px;
+}
+
+.all-photos-list img{
+    cursor: pointer;
+}
+
+.b-left-arrow, .b-right-arrow{
+    width: 15px;
+}
+
+.jqDock{
+    margin-top: 20px !important;
+}
+
+.photo-actions{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.scarica-hires-btn{
+    display: block;
+    background: transparent url(../images/site/ScaricaHires.jpg) no-repeat;
+    width: 145px;
+    height: 22px;
+}
+
+.ordina-btn{
+    display: block;
+    background: transparent url(../images/site/Ordina.jpg) no-repeat;
+    width: 93px;
+    height: 22px;
+}
+
+.registration-from, .forgot-form, .cart-table{
+    border: 1px solid #FFFFFF;
+}
+
+.cart-table td{
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 1px solid #999999;
+    padding: 3px 8px;
+    text-align: left;    
+}
+
+.cart-table th{
+    background: none repeat scroll 0 0 #333333;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-weight: normal;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+.send-picture{
+    background: transparent url(../images/site/reset-pwd-btn.png) no-repeat;
+    width: 150px;
+    height: 19px;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-right: 28px;
+    padding-bottom: 1px;
+    border: none;
+} 
+
+/** ----------------------------------- Content block ---------------------------------- **/
+
+/** ----------------------------------- Footer block ---------------------------------- **/
+.white-delimiter{
+    font-size: 0px;
+    line-height: 0px;
+    height: 0px;
+    border-top: 1px solid #FFFFFF;    
+}
+
+.b-footer { 
+    clear: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.b-footer a{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.b-footer span{
+    color: #a3a49d;
+}
+/** ----------------------------------- Footer block ---------------------------------- **/
+
+
+/** ----------------------------------- temp css ---------------------------------- **/
+.joinus, .forgot-password{
+    text-align: center;
+}
+
+.form-header-red-text{
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.joinus, .forgot-password {
+    position: relative;
+    margin: 0px auto;
+    left: auto;
+    padding-top: 150px; 
+    z-index: 10;
+}
+
+.forgot-password{
+    width: 500px;
+}
+
+.cart-list {
+    padding-top: 100px;
+    position: relative;
+    z-index: 10;
+    margin-left: 20px;
+}
+
+.chisiamo {
+    padding-top: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.faq{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 40px;
+    z-index: 10;
+}
+
+.istrusioni{
+    padding-top: 100px;
+}
+
+.cart-sended {
+    padding-top: 100px;
+    text-align: center;
+}
+/** ----------------------------------- temp css ---------------------------------- **/
+
+.ui-datepicker { width: 17em; padding: .2em .2em 0; z-index: 9999 !important; }

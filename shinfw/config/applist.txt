@@ -1,0 +1,9 @@
+1|Shin Framework|shinfw
+2|Shin CRM|crm
+3|Shin Framework Examples|examples
+4|Shin Intranet|intranet
+5|Shin Personal Finance Manager|ppfm
+6|Shin Ticket|shinticket
+7|GTR Website|gtrwebsite
+8|Snaptrack Website|trk
+9|JQuery mobile example environment|jqmobile

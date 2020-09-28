@@ -1,0 +1,3 @@
+INSERT INTO `sys_menusettings` (`idMenu`, `idPanel`, `idUser`, `collapsed`, `maximized`, `order_menu`, `column_menu`, `color_class`, `color_border_class`, `color_bg_class`,`show_close`, `show_maximize`, `show_turn`, `show_info`) VALUES
+(1, 10, 1, '0', '0', 0, 1, 'color-blue', 'border-color-green', 'bg-color-green', 1, 1, 1, 1),
+(2, 60, 2, '0', '0', 0, 1, 'color-green', 'border-color-green', 'bg-color-yellow', 1, 1, 1, 1);

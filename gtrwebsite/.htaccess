@@ -1,0 +1,14 @@
+SetEnv TZ Europe/Rome
+
+Options +FollowSymlinks
+
+RewriteEngine On
+RewriteBase /shinframework/gtrwebsite
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php?/$1 [QSA,L]
+
+#<IfModule mod_rewrite.c>
+#RewriteEngine on
+#RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+#</IfModule> 

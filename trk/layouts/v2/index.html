@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        
+        <div class="b-content">
+            <!-- header block -->
+            <div class="b-header">
+                <div class="b-logo">
+                    <img src="images/Logone.png" alt="" title="" />
+                </div>
+                <div class="b-header-bar">
+                    <a href="#" class="login-btn right" onclick="showLoginForm();"></a>
+                    <a href="#" class="registrati-btn right"></a>
+                    
+                    <!-- login form -->
+                    <div class="login-form">
+                        <form action="{php} echo base_url().'/index.php/trylogin'; {/php}" method="post">
+                            <table class="login-table" align="center">
+                                <tr>
+                                    <td>
+                                        <span style="color:red">{$login_errors}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">
+                                        <label for="username">{$lng_label_sys_user_username}</label><br />
+                                        <input type="text" tabindex="1" name="user_login" id="username" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left">
+                                        <label for="password">{$lng_label_sys_user_pass}</label><br />
+                                        <input type="password" tabindex="2" name="user_password" id="password" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="right">
+                                        <input type="submit" tabindex="5" value="Login" name="login" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2">&nbsp;
+                                    </td>
+                                </tr>
+                           </table>
+                        </form>
+                    </div><!-- .login form -->
+                </div>
+            </div>
+            <!-- .header block -->
+            <!-- content block -->
+            <div class="b-content-inner">
+                <!-- search form-->
+                <div class="search-form">
+                    <form action="" method="post" id="gallery-search"> 
+                        <div>
+                            <table class="search-panel" align="center">
+                                <tr>
+                                    <th>Type</th>
+                                    <td>
+                                        <select name="search[type]" id="circuit-type"></select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Country</th>
+                                    <td>
+                                        <select name="search[country]" id="circuit-country"></select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Circuit</th>
+                                    <td>
+                                        <select name="search[circuit]" id="circuit"></select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Race Day</th>
+                                    <td>
+                                        <input type="text" name="search[raceDay]" value="" id="raceDay" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Race Time</th>
+                                    <td>
+                                        <input type="text" name="search[raceTimeFrom]" value="" id="raceTimeFrom" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Race Time</th>
+                                    <td>
+                                        <input type="text" name="search[raceTimeTo]" value="" id="raceTimeTo" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Licence</th>
+                                    <td>
+                                        <input type="text" name="search[licence]" value="" id="licence" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Car Number</th>
+                                    <td>
+                                        <input type="text" name="search[car_number]" value="" id="car_number" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Pilot</th>
+                                    <td>
+                                        <input type="text" name="search[car_pilot]" value="" id="car_pilot" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Brand</th>
+                                    <td>
+                                        <input type="text" name="search[car_brand]" value="" id="car_brand" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Rate</th>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center" class="without-bottom-border">
+                                        <input type="submit" name="search-btn" value="Search" id="search" />
+                                        <input type="reset"  name="search-btn" value="Reset" id="reset" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+                <!-- .search form -->
+                <img src="images/car.jpg" alt="" title="" />
+            </div>
+            <!-- .content block -->
+            <div class="white-delimiter"></div>
+            <!-- footer block -->
+            <div class="b-footer">
+                <a href="#">chi&nbsp;siamo</a>&nbsp;&nbsp;&nbsp;<a href="#">istruzioni</a>&nbsp;&nbsp;&nbsp;<a href="#">contatti</a>&nbsp;&nbsp;&nbsp;<a href="#">faq</a>
+                <br />
+                <br />
+                <span>Indicare chiaramente che il sito è in beta dicitura bla bla dwgfciqwd dwviuq rf.</span>
+            </div>
+            <!-- .footer block -->
+        </div>
+        
+        <script type="text/javascript">
+    
+            $('.login-form').bind('click', false);
+            
+            /**
+            * function show or hide login form
+            */
+            function showLoginForm(){
+                if($('.login-form').css('display') == 'none') {
+                    $('.login-form').show();
+                } else {
+                    $('.login-form').hide();    
+                }
+            }    
+        </script>
+          
+    </body>
+</html>

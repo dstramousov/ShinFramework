@@ -1,0 +1,28 @@
+DEBUG - 2012-02-09 13:31:14 --> SHIN_Templater run is "shinfw"
+DEBUG - 2012-02-09 13:31:14 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2012-02-09 13:31:14 --> URI Class Initialized
+DEBUG - 2012-02-09 13:31:14 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2012-02-09 13:31:14 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\StartController.php
+DEBUG - 2012-02-09 13:31:14 --> Router Class Initialized.
+DEBUG - 2012-02-09 13:31:14 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2012-02-09 13:31:14 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2012-02-09 13:31:14 --> Session Class Initialized
+DEBUG - 2012-02-09 13:31:14 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2012-02-09 13:31:15 --> Session routines successfully run
+DEBUG - 2012-02-09 13:31:15 --> SHIN_Controller class initialized
+DEBUG - 2012-02-09 13:31:15 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2012-02-09 13:31:15 --> [QUERY] "delete from sys_session where updated < '2012-02-09 11:31:15'"
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] Time run: 0.869339 seconds.
+DEBUG - 2012-02-09 13:31:16 --> 
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '82bd4b93e9a3e22a63a0c230bdba4012'"
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] Time run: 0.019292 seconds.
+DEBUG - 2012-02-09 13:31:16 --> 
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2012-02-09 13:31:16' WHERE `id` = '82bd4b93e9a3e22a63a0c230bdba4012'"
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] Time run: 0.012808 seconds.
+DEBUG - 2012-02-09 13:31:16 --> 
+DEBUG - 2012-02-09 13:31:16 --> SHIN_Core loaded successfull.
+DEBUG - 2012-02-09 13:31:16 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2012-02-09 13:31:16 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\login.tpl
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] "EXPLAIN SELECT * FROM (`sys_session`) WHERE `id` = '82bd4b93e9a3e22a63a0c230bdba4012'"
+DEBUG - 2012-02-09 13:31:16 --> [QUERY] Time run: 0.001833 seconds.
+DEBUG - 2012-02-09 13:31:16 --> 

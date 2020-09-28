@@ -1,0 +1,44 @@
+<form action="http://shinfw.local//snaptrack/index.php/search" method="post" id="pagerform_up" name="pagerform_up">
+    <input type="hidden" value="" id="per_page" name="per_page" />
+    <input type="hidden" value="" id="cur_page" name="cur_page" />
+
+    &nbsp;<strong>1</strong>&nbsp;
+    <input type="submit" value="2"  onclick="$('#cur_page').val(6);">
+    <input type="submit" value="3"  onclick="$('#cur_page').val(12);">
+    <input type="submit" value="4"  onclick="$('#cur_page').val(18);">
+
+    <select name="per_page_up" onchange="$('form[name=pagerform_up\]')[0].submit();">
+        <option value="6" selected="selected">6</option>
+        <option value="12">12</option>
+        <option value="18">18</option>
+        <option value="24">24</option>
+    </select>
+</form>
+
+
+<form action=" (string)http://shinfw.local//jqmobile/index.php/table" method="post" id="pagerform_up" name="pagerform_up">
+ <strong>1</strong> <select name="per_page_up" onchange="$('form[name=pagerform_up\]')[0].submit();">
+<option value="6">6</option>
+<option value="12">12</option>
+<option value="18" selected="selected">18</option>
+<option value="24">24</option>
+</select></form>
+
+
+
+<form action="http://shinfw.local//snaptrack/index.php/search" method="post" id="pagerform_up" name="pagerform_up">
+    <input type="hidden" value="" id="cur_page" name="cur_page" />
+    <input type="hidden" value="" id="per_page" name="per_page" />
+
+    &nbsp;<strong>1</strong>&nbsp;
+    <input type="submit" value="2" name="page" onclick="$('#cur_page').val(6); $('#per_page').val(6);">
+    <input type="submit" value="3" name="page" onclick="$('#cur_page').val(12); $('#per_page').val(6);">
+    <input type="submit" value="4" name="page" onclick="$('#cur_page').val(18); $('#per_page').val(6);">
+
+    <select name="per_page_up" onchange="$('form[name=pagerform_up\]')[0].submit();">
+        <option value="6" selected="selected">6</option>
+        <option value="12">12</option>
+        <option value="18">18</option>
+        <option value="24">24</option>
+    </select>
+</form>

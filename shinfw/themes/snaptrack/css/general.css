@@ -1,0 +1,226 @@
+/*reset params for all tags on the page*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+fieldset,img { 
+    border:0;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+
+/*init css fo base elements*/
+a{
+    text-decoration: underline; 
+}
+ 
+.ui-widget {
+    font-size: 1em;    
+}
+
+body{
+    font-size: 14px;
+    font-family: Segoe UI, Arial, sans-serif;
+    padding: 5px !important;
+    background-color: #000000 !important;
+}
+
+fieldset{
+    border: 1px solid #000000 !important;
+    padding: 5px !important;
+}
+
+input[type=text] {
+    width: 250px;
+    font-size: 16px;
+}
+
+/*style for SHIN_DDMenu.php component*/
+sf-menu a {
+    text-decoration: none;    
+}
+
+/*style for SHIN_Message component*/
+.ui-state-highlight {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+/*style for SHIN_Panel component*/
+.color-list td{
+    padding: 3px;    
+}    
+
+/*init SHIN css base classes*/
+.shin-error1{
+    color: #FF0000;
+    font-weight: bold;   
+}
+
+.shin-error2{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #FF0000;        
+}
+
+.shin-special-label{
+    
+}
+
+.shin-table-caption{
+    
+}
+
+.shin-pointer {
+    cursor: pointer;
+}
+
+.shin-text-r{
+    color: #FF0000;
+}
+
+.shin-text-b{
+    color: #0000FF;
+}
+
+.shin-text-g {
+    color: #00FF00;
+}
+
+.shin-general-menu {
+    float: left;
+    margin-right: 10px;    
+}
+
+.shin-ticket-menu{
+    float: right;
+    margin-left: 10px;    
+}
+
+.shin-clear{
+    clear: both;
+}
+
+.shin-hide{
+    display: none;
+}
+
+.shin-show{
+    display: block;
+}
+
+.shin-examples-list{
+    padding-left: 30px;
+}
+
+/*init additional css for datatables plugin*/ 
+.dataTables_info {
+    padding-top:0;
+}
+
+.dataTables_paginate {
+    padding-top:0;
+}
+
+.css_right {
+    float:right;
+}
+
+#example_wrapper .fg-toolbar {
+    font-size:0.8em;
+}
+
+#theme_links span {
+    float:left;
+    padding:2px 10px;
+}
+
+/*style for sys user manage page*/
+.sys-manage-controls {
+    margin-bottom: 10px;
+}
+
+.sys-user-edit-form th{
+    padding: 5px;
+}
+
+.sys-user-edit-form td{
+    padding: 5px;
+}
+/*style for sys user manage page*/
+
+/*style for sys user manage page*/
+.sys-manage-controls {
+    margin-bottom: 10px;
+}
+
+.sys-dialog table{
+    margin-bottom: 10px;
+}
+
+.sys-dialog th{
+    padding: 2px 5px 2px 5px;
+    text-align: left;
+    width: 100px;
+}
+
+.sys-dialog td{
+    padding: 2px 5px 2px 5px;
+    text-align: left;
+}
+
+.sys-dialog input[type=text], .sys-dialog input[type=password], .sys-dialog select {
+    width: 200px !important;
+    font-size: 16px;
+}
+
+.validatetion-error {
+    font-size: 12px;
+    color: #FF0000;
+}
+
+.sys-user-messages{
+    margin-bottom: 10px;
+}
+/*style for sys user manage page*/
+
+/*style for sys log manage page*/
+.dir-info{
+    text-align: center;
+    min-height: 100px;
+}
+
+.info-block {
+    float: left;
+    margin: 5px;
+    width: 650px;
+    clear: both;
+}
+.info-block th{
+    text-align: left;
+    padding-right: 5px;
+}
+
+.info-block td{
+    text-align: left;
+    padding-right: 5px;
+}
+/*style for sys log manage page*/
+
+#ui-datepicker-div {
+    display: none;
+}

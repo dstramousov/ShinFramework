@@ -1,0 +1,116 @@
+.photograper-data th{
+    text-align: left;
+    padding: 3px 5px 3px 0px;
+}
+
+.photograper-data input[type=text]{
+    width: 200px !important;
+}
+
+.watermark-status td{
+    padding-right: 5px;
+}
+
+.wt-properties td{
+    padding: 4px;
+}
+
+#change-pwd-dialog th{
+    text-align: left;
+}
+
+#change-pwd-dialog td{
+    padding: 4px;
+}
+
+.wt-table td {
+    padding: 2px;    
+}
+
+.wt-position{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+.wt-position td{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.top-left{
+    background-color: #FF0000;    
+}
+
+.top-center{
+    background-color: #FF5500;    
+}
+
+.top-right{
+    background-color: #FFFF00;    
+}
+
+.center-left{
+    background-color: #FF0055;    
+}
+
+.center-center{
+    background-color: #FF00FF;    
+}
+
+.center-right{
+    background-color: #00FF00;    
+}
+
+.bottom-left{
+    background-color: #0000FF;    
+}
+
+.bottom-center{
+    background-color: #000000;    
+}
+
+.bottom-right{
+    background-color: #005500;    
+}
+
+.active-position{
+    border: 5px solid #a7fd00;
+}
+
+.selected-position{
+    border: 5px solid #002aff;
+}
+
+.empty-img-list{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.statistic-table th{
+    text-align: left;
+}
+
+.statistic-table td{
+    padding-left: 10px;
+}
+
+#user-add-dialog table, #user-edit-dialog table{
+    margin-bottom: 10px;
+}
+
+#user-add-dialog th, #user-edit-dialog th{
+    text-align: left;
+    width: 130px;
+}
+
+#user-add-dialog td, #user-edit-dialog td{
+    padding: 2px 5px;
+    text-align: left;
+}
+
+.admin-search-table td,th{
+    padding: 2px;
+}

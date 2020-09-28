@@ -1,0 +1,164 @@
+/* ------------------------ general classes -------------------------------*/
+.errors {
+    float: left;
+    color: #FF0000;
+}
+/* ------------------------ general classes -------------------------------*/
+
+/* ------------------------ new ticket form -------------------------------*/
+.new-form fieldset {
+    position: relative;
+    width: 660px;
+    padding: 10px !important;
+}
+
+.new-form th{
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.new-form td{
+    padding: 5px;
+}
+
+.mceLayout{
+    width: 500px !important;
+}
+
+/* ------------------------ new ticket form -------------------------------*/
+
+/* ------------------------ show ticket form -------------------------------*/
+.show-form fieldset {
+    position: relative;
+    width: 650px;
+    padding: 10px !important;
+}
+
+.show-form th{
+    text-align: left;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.show-form td{
+    padding: 1px;
+}
+
+.ticket-body-html{
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+.attachment-link {
+    background: url(../images/email_attach.png) no-repeat 0px 2px;
+    padding-left: 20px;
+}
+
+#shinticket_ticket_body_container{
+    float: left;
+}
+
+#shinticket_ticket_body_tt{
+    float: right;
+    position: relative;
+    margin-top: -20px;
+}
+
+/* ------------------------ show ticket form -------------------------------*/
+
+/* ------------------------ ticket list -------------------------------*/
+.ticket-low-priority {
+    background-color: #81f375 !important;
+}
+
+.ticket-normal-priority{
+    background-color: #f5f371 !important;
+}
+
+.ticket-hight-priority {
+    background-color: #f8b56d !important;
+}
+
+.ticket-asap-priority {
+    background-color: #f76b6b !important;
+}
+
+.ticket-list-legend td{
+    white-space: nowrap;
+}
+
+.filter-list input[type=text]{
+    width: 150px !important;
+}
+
+.filter-list th{
+    padding-right: 5px;
+    font-weight: normal;    
+}
+
+.filter-list td{
+    padding-right: 10px;
+}
+/* ------------------------ ticket list -------------------------------*/
+
+/* ------------------------ ticket details list -------------------------------*/
+
+#shinticket_ticketdetails_body_container{
+    float: left;
+}
+
+#shinticket_ticketdetails_body_tt{
+    float:right;
+    margin-top: -20px;
+    position:relative;
+}
+/* ------------------------ ticket details list -------------------------------*/
+
+
+/* ------------------------ relation manage -------------------------------*/
+#manage-relations table td{
+    padding: 5px;
+}
+
+.relation-messages {
+    margin-bottom: 10px;
+}
+
+.relation-messages #js-error {
+    padding: 5px !important;
+}
+
+.relation-messages #js-message {
+    padding: 5px !important;
+}
+
+/* ------------------------ relation manage -------------------------------*/
+
+
+/* ------------------------ customer manage -------------------------------*/
+.list {
+    position: relative;
+    left: 50%;
+    margin-left: -40%;
+}
+
+.customer-list {
+    width: 80%;
+}
+/* ------------------------ customer manage -------------------------------*/
+
+/* ------------------------ application manage -------------------------------*/
+.application-list {
+    width: 80%;
+}
+/* ------------------------ application manage -------------------------------*/
+
+/* ------------------------ relation manage -------------------------------*/
+.relation-list {
+    width: 80%;
+}
+/* ------------------------ relation manage -------------------------------*/

@@ -1,0 +1,3 @@
+INSERT INTO `gtrwebsite_news` (`idNews`, `newsType`, `title`, `bodyShort`, `bodyLong`, `img`, `link`, `status`, `userIns`, `dataIns`, `userMod`,`dataMod`, `dataStart`, `dataStop`, `clicks`) VALUES
+(null, 'news', 'First news title', 'First news body short', 'First news body long', 'award_star_gold_1.png', 'http://yandex.ru', 1, 1, '2010-10-25 11:20:05', 1, '2010-10-25 11:20:05', '2010-10-25', '2010-10-28', 10),
+(null, 'promo', 'Second news title', 'Second news body short', 'Second news body long', 'award_star_gold_2.png', 'http://google.com', 1, 1, '2010-10-25 11:20:05', 1, '2010-10-25 11:20:05', '2010-10-25', '2010-10-28', 20);

@@ -1,0 +1,86 @@
+/*--------------------------------- general section ------------------------------*/
+.clear{
+    clear: both;
+}
+/*--------------------------------- general section ------------------------------*/
+
+/*--------------------------------- dialog section ------------------------------*/
+.gtrwebsite-dialog table td{
+    padding: 2px;
+}
+
+.gtrwebsite-dialog input, select{
+    width: 200px !important;
+}
+
+#gtrwebsite_solutionitem_idItem{
+    width: 500px !important;
+}
+
+.gtrwebsite-dialog input[disabled] {
+    background-color: #e0e0e0;
+    border: 1px solid #727272;
+}
+
+#dataListCategory tr{
+    cursor: pointer;
+}
+
+.second-message {
+    display: none;
+}
+/*--------------------------------- dialog section ------------------------------*/
+
+/*--------------------------------- tree tab ------------------------------*/
+
+/*--------------------------------- tree tab ------------------------------*/
+
+
+/*--------------------------------- contact tab ------------------------------*/
+.contact-test-form th{
+    text-align: left;
+}
+
+.contact-test-form input{
+    width: 230px !important;
+}
+
+#dataListContact tr{
+    cursor: pointer;
+}
+/*--------------------------------- contact tab ------------------------------*/
+
+/*--------------------------------- solution finder page ------------------------------*/
+.b-solution-data {
+    padding-top: 20px;
+}
+
+.b-solution li{
+    width: 300px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.b-solution-block{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+
+.b-answer-block {
+    width: 300px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+td{
+    padding: 2px !important;
+}
+
+/*--------------------------------- solution finder page ------------------------------*/
+
+#ui-datepicker-div {
+    display: none;
+}

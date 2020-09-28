@@ -1,0 +1,320 @@
+DEBUG - 2011-11-28 11:28:20 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-11-28 11:28:20 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:20 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:20 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:20 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\StartController.php
+DEBUG - 2011-11-28 11:28:21 --> Router Class Initialized.
+DEBUG - 2011-11-28 11:28:21 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-11-28 11:28:21 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-11-28 11:28:21 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:21 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-11-28 11:28:21 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:21 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:21 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:28:21'"
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] Time run: 0.105709 seconds.
+DEBUG - 2011-11-28 11:28:21 --> 
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '48c4574a951687e5e5db67a13a145397'"
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] Time run: 0.002364 seconds.
+DEBUG - 2011-11-28 11:28:21 --> 
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-11-28 11:28:21' WHERE `id` = '48c4574a951687e5e5db67a13a145397'"
+DEBUG - 2011-11-28 11:28:21 --> [QUERY] Time run: 0.002331 seconds.
+DEBUG - 2011-11-28 11:28:21 --> 
+DEBUG - 2011-11-28 11:28:21 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:21 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2011-11-28 11:28:21 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\login.tpl
+DEBUG - 2011-11-28 11:28:24 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:24 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:24 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\StartController.php
+DEBUG - 2011-11-28 11:28:24 --> Router Class Initialized.
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-11-28 11:28:24 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-11-28 11:28:24 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:24 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:28:24'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.001248 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '48c4574a951687e5e5db67a13a145397'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.000796 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-11-28 11:28:24' WHERE `id` = '48c4574a951687e5e5db67a13a145397'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.000648 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "SELECT *                                           FROM sys_user WHERE username = 'admin' OR email = 'admin'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.157924 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "INSERT INTO `sys_session` (`id`, `uid`, `host`, `stored`, `updated`) VALUES ('9b1a88e3e737bcc4e266fb89d008318c', '1', '127.0.0.1', '2011-11-28 11:28:24', '2011-11-28 11:28:24')"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.021573 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> Session started. id=9b1a88e3e737bcc4e266fb89d008318c
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "UPDATE `sys_user` SET `lastlogin` = '2011-11-28 11:28:24', `host` = '127.0.0.1' WHERE `idUser` = '1'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.003318 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:24 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:24 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\DefaultController.php
+DEBUG - 2011-11-28 11:28:24 --> Router Class Initialized.
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-11-28 11:28:24 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-11-28 11:28:24 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:24 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:24 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:28:24'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.001386 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] Time run: 0.000880 seconds.
+DEBUG - 2011-11-28 11:28:24 --> 
+DEBUG - 2011-11-28 11:28:24 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:28:24' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.020160 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.001336 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:28:25 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:28:25 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:25 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:25 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\panel.php
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT idElem, type, idArea, mode  FROM sys_policyarea WHERE (idElem='1' OR idElem IN ('r0060'))  ORDER BY idArea"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.074711 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT      sys_menurows.idMenu,      sys_menurows.idPanel,      sys_menurows.idGrp,      sys_structapplication.idArea,      sys_structapplication.idSubArea,      sys_menurows.idApplication,      sys_structapplication.application,      sys_structapplication.idModule,      sys_structapplication.file,      sys_menurows.newPage,      sys_menurows.type,      sys_menurows.position,      sys_menurows.active     FROM      sys_menurows      INNER JOIN sys_structapplication ON sys_structapplication.idApplication = sys_menurows.idApplication WHERE sys_structapplication.idArea  IN (10, 20, 30, 40, 50, 60, 70, 80, 90)  ORDER BY idMenu, idPanel, idGrp, position ASC"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.051482 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT * FROM (`sys_menu`)"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.027022 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT * FROM (`sys_menugrp`)"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.033427 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT MAX(`column_menu`) AS total FROM (`sys_menu`)"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.014888 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT * FROM (`sys_menu`) ORDER BY `order_menu` asc"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.001606 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT MAX(`column_menu`) AS total FROM (`sys_menusettings`) WHERE `idUser` = '1'"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.019106 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT * FROM (`sys_menusettings`) WHERE `idUser` = '1' ORDER BY `order_menu` asc"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.001526 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] "SELECT `idModule`, `applicationFolder` FROM (`sys_modulelist`) ORDER BY `applicationFolder` asc"
+DEBUG - 2011-11-28 11:28:25 --> [QUERY] Time run: 0.049251 seconds.
+DEBUG - 2011-11-28 11:28:25 --> 
+ERROR - 2011-11-28 11:28:25 --> !!!!! Widget not loaded !!!!!  Application: "crm" widget name: "mail"
+DEBUG - 2011-11-28 11:28:25 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\main_page.tpl
+DEBUG - 2011-11-28 11:28:29 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:29 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:29 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\SysManageController.php
+DEBUG - 2011-11-28 11:28:29 --> Router Class Initialized.
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-11-28 11:28:29 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-11-28 11:28:29 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:29 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:28:29'"
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] Time run: 0.001516 seconds.
+DEBUG - 2011-11-28 11:28:29 --> 
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] Time run: 0.001508 seconds.
+DEBUG - 2011-11-28 11:28:29 --> 
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:28:29' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] Time run: 0.002739 seconds.
+DEBUG - 2011-11-28 11:28:29 --> 
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:28:29 --> [QUERY] Time run: 0.001230 seconds.
+DEBUG - 2011-11-28 11:28:29 --> 
+DEBUG - 2011-11-28 11:28:29 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:28:29 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:28:29 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:30 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\tabs.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\datatables.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\dialog.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\button.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\upload.php
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\blockui.php
+DEBUG - 2011-11-28 11:28:30 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\sys_manage\list-item.tpl
+DEBUG - 2011-11-28 11:28:30 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\panel.php
+DEBUG - 2011-11-28 11:28:32 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:32 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-11-28 11:28:32 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\SysUserManageController.php
+DEBUG - 2011-11-28 11:28:32 --> Router Class Initialized.
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-11-28 11:28:32 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-11-28 11:28:32 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:32 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] Time run: 0.001857 seconds.
+DEBUG - 2011-11-28 11:28:32 --> 
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:28:32' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] Time run: 0.002943 seconds.
+DEBUG - 2011-11-28 11:28:32 --> 
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:28:32 --> [QUERY] Time run: 0.001416 seconds.
+DEBUG - 2011-11-28 11:28:32 --> 
+DEBUG - 2011-11-28 11:28:32 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:28:32 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:28:32 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:32 --> SHIN_Controller class initialized
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\datatables.php
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\dialog.php
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\button.php
+DEBUG - 2011-11-28 11:28:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2011-11-28 11:28:32 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\sys_manage\list\sys-user-list.tpl
+DEBUG - 2011-11-28 11:28:33 --> SHIN_Input component initialized .
+DEBUG - 2011-11-28 11:28:33 --> SHIN_Language loaded. Default language: en
+DEBUG - 2011-11-28 11:28:33 --> Session Class Initialized
+DEBUG - 2011-11-28 11:28:33 --> [CORE] Try load config file: ..\config\session.php
+DEBUG - 2011-11-28 11:28:33 --> Session routines successfully run
+DEBUG - 2011-11-28 11:28:33 --> [CORE] Try load config file: ..\config\auth.php
+DEBUG - 2011-11-28 11:28:33 --> URI Class Initialized
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.001311 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:28:33' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.003103 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.001029 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:28:33 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:28:33 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT * FROM (`sys_user`)"
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.001610 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT `idRole`, `role` FROM (`sys_userrole`)"
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.061470 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc LIMIT  0, 10 "
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.001114 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc"
+DEBUG - 2011-11-28 11:28:33 --> [QUERY] Time run: 0.000920 seconds.
+DEBUG - 2011-11-28 11:28:33 --> 
+DEBUG - 2011-11-28 11:29:12 --> SHIN_Input component initialized .
+DEBUG - 2011-11-28 11:29:12 --> SHIN_Language loaded. Default language: en
+DEBUG - 2011-11-28 11:29:12 --> Session Class Initialized
+DEBUG - 2011-11-28 11:29:12 --> [CORE] Try load config file: ..\config\session.php
+DEBUG - 2011-11-28 11:29:12 --> Session routines successfully run
+DEBUG - 2011-11-28 11:29:12 --> [CORE] Try load config file: ..\config\auth.php
+DEBUG - 2011-11-28 11:29:12 --> URI Class Initialized
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:29:12'"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001242 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001168 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:29:12' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001553 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001564 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:29:12 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:29:12 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT * FROM (`sys_user`)"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001479 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT `idRole`, `role` FROM (`sys_userrole`)"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001733 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc LIMIT  0, 10 "
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001789 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc"
+DEBUG - 2011-11-28 11:29:12 --> [QUERY] Time run: 0.001801 seconds.
+DEBUG - 2011-11-28 11:29:12 --> 
+DEBUG - 2011-11-28 11:29:46 --> SHIN_Input component initialized .
+DEBUG - 2011-11-28 11:29:46 --> SHIN_Language loaded. Default language: en
+DEBUG - 2011-11-28 11:29:46 --> Session Class Initialized
+DEBUG - 2011-11-28 11:29:46 --> [CORE] Try load config file: ..\config\session.php
+DEBUG - 2011-11-28 11:29:46 --> Session routines successfully run
+DEBUG - 2011-11-28 11:29:46 --> [CORE] Try load config file: ..\config\auth.php
+DEBUG - 2011-11-28 11:29:46 --> URI Class Initialized
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:29:46'"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.001507 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.000931 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:29:46' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.002304 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.001596 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:29:46 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:29:46 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT * FROM (`sys_user`)"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.001331 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT `idRole`, `role` FROM (`sys_userrole`)"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.000985 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc LIMIT  0, 10 "
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.001335 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc"
+DEBUG - 2011-11-28 11:29:46 --> [QUERY] Time run: 0.001121 seconds.
+DEBUG - 2011-11-28 11:29:46 --> 
+DEBUG - 2011-11-28 11:30:06 --> SHIN_Input component initialized .
+DEBUG - 2011-11-28 11:30:06 --> SHIN_Language loaded. Default language: en
+DEBUG - 2011-11-28 11:30:06 --> Session Class Initialized
+DEBUG - 2011-11-28 11:30:06 --> [CORE] Try load config file: ..\config\session.php
+DEBUG - 2011-11-28 11:30:06 --> Session routines successfully run
+DEBUG - 2011-11-28 11:30:06 --> [CORE] Try load config file: ..\config\auth.php
+DEBUG - 2011-11-28 11:30:06 --> URI Class Initialized
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "delete from sys_session where updated < '2011-11-28 09:30:06'"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.001393 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.002246 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "UPDATE `sys_session` SET `uid` = '1', `updated` = '2011-11-28 11:30:06' WHERE `id` = '9b1a88e3e737bcc4e266fb89d008318c'"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.002282 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND sys_user.idUser=1  "
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.001035 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\shinfw\en\app_lang.php
+DEBUG - 2011-11-28 11:30:06 --> [LANGUAGE] Current language: en
+DEBUG - 2011-11-28 11:30:06 --> SHIN_Core loaded successfull.
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT * FROM (`sys_user`)"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.001507 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT `idRole`, `role` FROM (`sys_userrole`)"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.001372 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc LIMIT  0, 10 "
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.002305 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] "SELECT  sys_user.idUser as idUser,  sys_user.lang as lang,  sys_user.status as status,  sys_user.name as name,  sys_user.role_1 as role_1,  sys_user.role_2 as role_2,  sys_user.role_3 as role_3,  sys_user.role_4 as role_4,  sys_user.role_5 as role_5,  sys_user.role_6 as role_6,  sys_user.role_7 as role_7,  sys_user.role_8 as role_8,  sys_user.role_9 as role_9,  sys_user.role_10 as role_10,  sys_user.lastname as lastname,  sys_user.email as email,  sys_user.username as username,  sys_user.pwd as pwd,  sys_user.theme as theme,  sys_user.host as host,  sys_user.updated as updated,  sys_user.added as added,  sys_user.lastlogin as lastlogin FROM sys_user as sys_user   WHERE 1=1 AND  1=1   ORDER BY   idUser asc"
+DEBUG - 2011-11-28 11:30:06 --> [QUERY] Time run: 0.001936 seconds.
+DEBUG - 2011-11-28 11:30:06 --> 

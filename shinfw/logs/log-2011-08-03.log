@@ -1,0 +1,242 @@
+DEBUG - 2011-08-03 07:21:28 --> SHIN_Templater run is "shinfw"
+DEBUG - 2011-08-03 07:21:28 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-08-03 07:21:28 --> URI Class Initialized
+DEBUG - 2011-08-03 07:21:28 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\router.php
+DEBUG - 2011-08-03 07:21:28 --> [ROUTER] Try route class: D:\Work\web\shinframework\default\app\StartController.php
+DEBUG - 2011-08-03 07:21:28 --> Router Class Initialized.
+DEBUG - 2011-08-03 07:21:28 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 07:21:28 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\seo.php
+DEBUG - 2011-08-03 07:21:29 --> Session Class Initialized
+DEBUG - 2011-08-03 07:21:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 07:21:29 --> Session routines successfully run
+DEBUG - 2011-08-03 07:21:29 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 07:21:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] "delete from sys_session where updated < '2011-08-03 05:21:29'"
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] Time run: 0.183564 seconds.
+DEBUG - 2011-08-03 07:21:29 --> 
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] Time run: 0.002718 seconds.
+DEBUG - 2011-08-03 07:21:29 --> 
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 07:21:29' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 07:21:29 --> [QUERY] Time run: 0.001567 seconds.
+DEBUG - 2011-08-03 07:21:29 --> 
+DEBUG - 2011-08-03 07:21:29 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 07:21:29 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\message.php
+DEBUG - 2011-08-03 07:21:29 --> [SMARTY] Try processed file: D:\Work\web\shinframework\shinfw\views\login.tpl
+DEBUG - 2011-08-03 08:33:32 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:32 --> URI Class Initialized
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:32 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\DefaultController.php
+DEBUG - 2011-08-03 08:33:32 --> No URI present. Default controller set.
+DEBUG - 2011-08-03 08:33:32 --> Router Class Initialized.
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 08:33:32 --> Session Class Initialized
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 08:33:32 --> Session routines successfully run
+DEBUG - 2011-08-03 08:33:32 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:32 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-03 08:33:32 --> [QUERY] "delete from sys_session where updated < '2011-08-03 06:33:32'"
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] Time run: 0.239874 seconds.
+DEBUG - 2011-08-03 08:33:33 --> 
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] Time run: 0.036102 seconds.
+DEBUG - 2011-08-03 08:33:33 --> 
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 08:33:33' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] Time run: 0.048474 seconds.
+DEBUG - 2011-08-03 08:33:33 --> 
+DEBUG - 2011-08-03 08:33:33 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 08:33:33 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:33 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-03 08:33:33 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 08:33:33 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\trk\it\app_lang.php
+DEBUG - 2011-08-03 08:33:33 --> [LANGUAGE] Current language: it
+DEBUG - 2011-08-03 08:33:33 --> [CORE] Try load config file: config\datepicker.php
+DEBUG - 2011-08-03 08:33:33 --> [CORE] Try load config file: config\timepicker.php
+DEBUG - 2011-08-03 08:33:33 --> [QUERY] "SELECT `idCircuit`, `circuit` FROM (`trk_circuits`) WHERE `circuitType` = '' AND `country` = ''"
+DEBUG - 2011-08-03 08:33:34 --> [QUERY] Time run: 0.458468 seconds.
+DEBUG - 2011-08-03 08:33:34 --> 
+DEBUG - 2011-08-03 08:33:34 --> [QUERY] "SELECT  trk_circuits.idCircuit as idCircuit,  trk_circuits.circuit as circuit,  trk_circuits.association_image as association_image,  trk_circuits.circuitType as circuitType,  trk_circuits.country as country,  trk_gcountries.fullname as trk_gcountries_fullname FROM trk_circuits as trk_circuits left join trk_gcountries as trk_gcountries on trk_gcountries.idCountry2 = trk_circuits.country   WHERE 1=1  GROUP BY  country"
+DEBUG - 2011-08-03 08:33:34 --> [QUERY] Time run: 0.153221 seconds.
+DEBUG - 2011-08-03 08:33:34 --> 
+DEBUG - 2011-08-03 08:33:34 --> [SMARTY] Try processed file: D:\Work\web\shinframework\trk\views\web\index.tpl
+DEBUG - 2011-08-03 08:33:43 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:43 --> URI Class Initialized
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:43 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\DefaultController.php
+DEBUG - 2011-08-03 08:33:43 --> Router Class Initialized.
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 08:33:43 --> Session Class Initialized
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 08:33:43 --> Session routines successfully run
+DEBUG - 2011-08-03 08:33:43 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "delete from sys_session where updated < '2011-08-03 06:33:43'"
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.001175 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.000793 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 08:33:43' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.000713 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 08:33:43 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:43 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 08:33:43 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\trk\it\app_lang.php
+DEBUG - 2011-08-03 08:33:43 --> [LANGUAGE] Current language: it
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\user_agents.php
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:33:43 --> Pagination Class Initialized
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"  "
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.217282 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"   LIMIT  0, 18 "
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.002145 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\datepicker.php
+DEBUG - 2011-08-03 08:33:43 --> [CORE] Try load config file: config\timepicker.php
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "SELECT `idCircuit`, `circuit` FROM (`trk_circuits`) WHERE `circuitType` = '' AND `country` = ''"
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.001467 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] "SELECT  trk_circuits.idCircuit as idCircuit,  trk_circuits.circuit as circuit,  trk_circuits.association_image as association_image,  trk_circuits.circuitType as circuitType,  trk_circuits.country as country,  trk_gcountries.fullname as trk_gcountries_fullname FROM trk_circuits as trk_circuits left join trk_gcountries as trk_gcountries on trk_gcountries.idCountry2 = trk_circuits.country   WHERE 1=1  GROUP BY  country"
+DEBUG - 2011-08-03 08:33:43 --> [QUERY] Time run: 0.001093 seconds.
+DEBUG - 2011-08-03 08:33:43 --> 
+DEBUG - 2011-08-03 08:33:43 --> [SMARTY] Try processed file: D:\Work\web\shinframework\trk\views\web\photographer\search-photo.tpl
+DEBUG - 2011-08-03 08:33:47 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:47 --> URI Class Initialized
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:33:47 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\DefaultController.php
+DEBUG - 2011-08-03 08:33:47 --> Router Class Initialized.
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 08:33:47 --> Session Class Initialized
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 08:33:47 --> Session routines successfully run
+DEBUG - 2011-08-03 08:33:47 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "delete from sys_session where updated < '2011-08-03 06:33:47'"
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.001182 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.001086 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 08:33:47' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.000965 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 08:33:47 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:33:47 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 08:33:47 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\trk\it\app_lang.php
+DEBUG - 2011-08-03 08:33:47 --> [LANGUAGE] Current language: it
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\user_agents.php
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:33:47 --> Pagination Class Initialized
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"  "
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.023404 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"   LIMIT  36, 18 "
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.001611 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\datepicker.php
+DEBUG - 2011-08-03 08:33:47 --> [CORE] Try load config file: config\timepicker.php
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "SELECT `idCircuit`, `circuit` FROM (`trk_circuits`) WHERE `circuitType` = '' AND `country` = ''"
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.001339 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] "SELECT  trk_circuits.idCircuit as idCircuit,  trk_circuits.circuit as circuit,  trk_circuits.association_image as association_image,  trk_circuits.circuitType as circuitType,  trk_circuits.country as country,  trk_gcountries.fullname as trk_gcountries_fullname FROM trk_circuits as trk_circuits left join trk_gcountries as trk_gcountries on trk_gcountries.idCountry2 = trk_circuits.country   WHERE 1=1  GROUP BY  country"
+DEBUG - 2011-08-03 08:33:47 --> [QUERY] Time run: 0.001612 seconds.
+DEBUG - 2011-08-03 08:33:47 --> 
+DEBUG - 2011-08-03 08:33:47 --> [SMARTY] Try processed file: D:\Work\web\shinframework\trk\views\web\photographer\search-photo.tpl
+DEBUG - 2011-08-03 08:39:07 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:39:07 --> URI Class Initialized
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:39:07 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\DefaultController.php
+DEBUG - 2011-08-03 08:39:07 --> No URI present. Default controller set.
+DEBUG - 2011-08-03 08:39:07 --> Router Class Initialized.
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 08:39:07 --> Session Class Initialized
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 08:39:07 --> Session routines successfully run
+DEBUG - 2011-08-03 08:39:07 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] "delete from sys_session where updated < '2011-08-03 06:39:07'"
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] Time run: 0.001193 seconds.
+DEBUG - 2011-08-03 08:39:07 --> 
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] Time run: 0.000823 seconds.
+DEBUG - 2011-08-03 08:39:07 --> 
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 08:39:07' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] Time run: 0.000797 seconds.
+DEBUG - 2011-08-03 08:39:07 --> 
+DEBUG - 2011-08-03 08:39:07 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 08:39:07 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:39:07 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 08:39:07 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\trk\it\app_lang.php
+DEBUG - 2011-08-03 08:39:07 --> [LANGUAGE] Current language: it
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\datepicker.php
+DEBUG - 2011-08-03 08:39:07 --> [CORE] Try load config file: config\timepicker.php
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] "SELECT `idCircuit`, `circuit` FROM (`trk_circuits`) WHERE `circuitType` = '' AND `country` = ''"
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] Time run: 0.001589 seconds.
+DEBUG - 2011-08-03 08:39:07 --> 
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] "SELECT  trk_circuits.idCircuit as idCircuit,  trk_circuits.circuit as circuit,  trk_circuits.association_image as association_image,  trk_circuits.circuitType as circuitType,  trk_circuits.country as country,  trk_gcountries.fullname as trk_gcountries_fullname FROM trk_circuits as trk_circuits left join trk_gcountries as trk_gcountries on trk_gcountries.idCountry2 = trk_circuits.country   WHERE 1=1  GROUP BY  country"
+DEBUG - 2011-08-03 08:39:07 --> [QUERY] Time run: 0.001474 seconds.
+DEBUG - 2011-08-03 08:39:07 --> 
+DEBUG - 2011-08-03 08:39:07 --> [SMARTY] Try processed file: D:\Work\web\shinframework\trk\views\web\index.tpl
+DEBUG - 2011-08-03 08:39:10 --> SHIN_Templater run is "trk"
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:39:10 --> URI Class Initialized
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\router.php
+DEBUG - 2011-08-03 08:39:10 --> [ROUTER] Try route class: D:\Work\web\shinframework\trk\app\DefaultController.php
+DEBUG - 2011-08-03 08:39:10 --> Router Class Initialized.
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\seo.php
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\auth.php
+DEBUG - 2011-08-03 08:39:10 --> Session Class Initialized
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\session.php
+DEBUG - 2011-08-03 08:39:10 --> Session routines successfully run
+DEBUG - 2011-08-03 08:39:10 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\limitations.php
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "delete from sys_session where updated < '2011-08-03 06:39:10'"
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.001086 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "SELECT * FROM (`sys_session`) WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.000875 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "UPDATE `sys_session` SET `uid` = '', `updated` = '2011-08-03 08:39:10' WHERE `id` = '211ed3c951e6d25056868b2bd1e65cbf'"
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.000771 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> SHIN_Core loaded successfull.
+DEBUG - 2011-08-03 08:39:10 --> SHIN_Controller class initialized
+DEBUG - 2011-08-03 08:39:10 --> SHIN_CSSManager component initialized .
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\ddmenu.php
+DEBUG - 2011-08-03 08:39:10 --> [LANGUAGE] Language file loaded: D:\Work\web\shinframework\trk\it\app_lang.php
+DEBUG - 2011-08-03 08:39:10 --> [LANGUAGE] Current language: it
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: D:\Work\web\shinframework\shinfw\config\user_agents.php
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:39:10 --> Pagination Class Initialized
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"  "
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.002227 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\paging.php
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "SELECT  trk_photo.idPhoto as idPhoto,  trk_photo.description as description,  trk_photo.status as status,  trk_photo.sysname as sysname,  trk_photo.upload_date as upload_date,  trk_photo.userId as userId,  sys_user.name as sys_user_name,  trk_photo.circuit as circuit,  trk_circuits.circuit as trk_circuits_circuit,  trk_circuits.circuitType as trk_circuits_circuitType,  trk_circuits.country as trk_circuits_country,  trk_photo.raceday as raceday,  trk_photo.racetime as racetime,  trk_photo.carLicensePlate as carLicensePlate,  trk_photo.carNumber as carNumber,  trk_photo.carPilot as carPilot,  trk_photo.carBrandName as carBrandName,  trk_photo.rate as rate,  trk_photo.raters as raters, DATE_FORMAT(upload_date, "%Y%m%d") as folder FROM trk_photo as trk_photo left join sys_user as sys_user on sys_user.idUser = trk_photo.userId left join trk_circuits as trk_circuits on trk_circuits.idCircuit = trk_photo.circuit   WHERE 1=1 AND 1=1 AND trk_photo.status="show"   LIMIT  36, 18 "
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.001781 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\datepicker.php
+DEBUG - 2011-08-03 08:39:10 --> [CORE] Try load config file: config\timepicker.php
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "SELECT `idCircuit`, `circuit` FROM (`trk_circuits`) WHERE `circuitType` = '' AND `country` = ''"
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.001178 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] "SELECT  trk_circuits.idCircuit as idCircuit,  trk_circuits.circuit as circuit,  trk_circuits.association_image as association_image,  trk_circuits.circuitType as circuitType,  trk_circuits.country as country,  trk_gcountries.fullname as trk_gcountries_fullname FROM trk_circuits as trk_circuits left join trk_gcountries as trk_gcountries on trk_gcountries.idCountry2 = trk_circuits.country   WHERE 1=1  GROUP BY  country"
+DEBUG - 2011-08-03 08:39:10 --> [QUERY] Time run: 0.001684 seconds.
+DEBUG - 2011-08-03 08:39:10 --> 
+DEBUG - 2011-08-03 08:39:10 --> [SMARTY] Try processed file: D:\Work\web\shinframework\trk\views\web\photographer\search-photo.tpl

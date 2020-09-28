@@ -1,0 +1,113 @@
+		UnrealSpeccy 0.36.7 by SMT
+        beeper tape saving and loading tones
+
+        AY38910YM2149 excellent sound emulation including digital
+        and unusual effects parallel ports on R14R15 are not emulated
+
+        TurboAY TurboSound two AYor YM chips by PoS and NedoPC schemes
+
+        TurboSound FM two YM2203 chips 6 AY channels  6 FM channels
+
+        also there is unreal not available in real Spectrum mode
+        playing AY music using digital player  emul plays three sound samples
+        with volumes and frequencies taken from corresponding AY registers
+        and pseudoturbo  two parallel YM chips with some phase shift
+
+        two covoxes  Pentagon port FB & Scorpion port DD
+
+        SounDrive
+
+        saving sound to WAV or VTX VTX  good format for AY sound much
+        more compact than PSG but you need lha.exe somewhere in %PATH%
+
+        General Sound  FX & MOD player through BASS sound system.
+        You can save music and listen it in your favourite modplayer
+
+        General Sound low level emulation including internal Z80 on 12MHz
+        512Kb onboard memory internal ports and DACs
+
+        BASS offers higher quality and more sound channels than lowlevel
+        emulation. Lowlevel emulation is useful for programs altering the
+        firmware player and using second Z80 for their own needs. In general
+        use BASS for games and lowlevel emulation for advanced soundmusic
+        editors RIFF tracker
+
+  video
+
+        several video drivers from simple and fastest to complex bilinear
+        filtering that upsamples Spectrum display to 512x384 * 64 colors;
+        noflic filter is specially for programs fast switching two screens
+        to get more colors;
+        several chunky filters for 21st century demos
+
+        amazing video filter AntiText64. Designed for reading ezines.
+        It converts 4x8 fonts to 8x8 or 8x16 on the fly and saves your eyes
+
+        multicolors are fixed for Pentagon & Scorpion 1T screen update
+        for all border effects
+
+        able to emulate scorpion timings including scorpion border update
+
+        nopaper mode for debugging border effects
+
+        flashcolor using 128 ink colors with black paper when FLASH bit on
+
+        hires modes Pentagon 512x192 Profi 512x240 ATM
+        works with double video filter
+
+        ATMTURBO color video modes works with double video filter
+        text mode 80x25 EGA mode 320x200 640x200.
+        To use custom textmode font place your SGEN.ROM to unreal directory.
+        Dont use bordernone with ATM video modes
+
+        Pentagon 384x304 mode see ZXGuide2 AlCoNews32
+
+        Pentagon colorperpixel mode see Info Guide8 9
+
+        hardware multicolor
+
+        attribute port FF
+
+
+  tuneup videosound with hotkeys
+   some programs such as Manic Miner and Lode Runner require
+   old 48K ROM 1982.rom while some other programs require
+   ZX Spectrum 128 ROM 48for128.rom  128tr.rom
+
+   some TRDOS programs Unreal Megademo by KSA Street Fighter
+   work only if TRDOS traps are disabled and all delays enabled
+
+   Profi service ROM can work only when all TRDOS delays are enabled
+
+   Bumpy does not work in default configuration it tries to read port
+   FFDF for kempston joystick  so disable kempston mouse before
+   playing bug found by Paul Pavlov
+
+   sounddrvwave does not work with CTSB128PCI Creative Sound Blaster
+   there is a bug in drivers for this card. bug found by Nuts
+
+   some ABS adventures ALIEN.SCL LENIN.SCL do not work with TRDOS 5.04TM
+   use version 5.03  it is most compatible bug found by Paul Pavlov
+
+   Vixen 123  incompatible with SounDrive bug found by Paul Pavlov
+   Fernandez  incompatible with SounDrive bug found by Shadow Maker
+
+   port FF sometimes is not responding when SkipFrame0
+   the same to SkipFrameMaxSpeed0 and max speed mode
+
+   Scorpion MAGIC generates NMI even if PC  4000 but shadow
+   monitor is not designed for this situation and may crash
+
+   CacheVox by AlCo requires TRDOS delays enabled and BETA128 IL1
+
+   If the emulator after returning of focus seems to have a sticky key
+   press Scroll Lock deactivate blinking key then press Scroll Lock again.
+
+   If emulator control keys work wrong after returning of focus press Enter
+   and keys must go normal.
+   
+   If emulator hangs with General Sound try DSPrimary0.
+
+   If emulator crashes with General Sound try GSTypeZ80.
+   
+   If Kempston Joystick doesnt work go to menu press NumLock there
